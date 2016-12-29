@@ -39,6 +39,8 @@ public class mainActivity extends AppCompatActivity {
         ib3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i = new Intent(mainActivity.this, machine.class);
+                startActivity(i);
                 //Toast.makeText(TravelBite.this, "test", Toast.LENGTH_SHORT).show();
             }
         });
