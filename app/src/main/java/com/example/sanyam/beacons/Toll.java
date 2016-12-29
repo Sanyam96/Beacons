@@ -34,7 +34,7 @@ public class Toll extends AppCompatActivity {
         final TextView tv6 = (TextView) findViewById(R.id.textView6);
 
 
-        //v.setVisibility(View.VISIBLE);
+        v.setVisibility(View.VISIBLE);
 
         //ImageView imgv1 = (ImageView) findViewById(R.id.cool);
 
@@ -135,6 +135,58 @@ public class Toll extends AppCompatActivity {
 //
 //        setContentView(view);
 
+
+
+
+
+        v2.setVisibility(View.VISIBLE);
+        new Handler().postDelayed(new Runnable(){
+            public void run() {
+                v2.setVisibility(View.INVISIBLE);
+            }
+        }, 2000);
+
+        tv6.setVisibility(View.VISIBLE);
+        new Handler().postDelayed(new Runnable(){
+            public void run() {
+                tv6.setVisibility(View.INVISIBLE);
+            }
+        }, 2000);
+
+        tv2.setVisibility(View.INVISIBLE);
+        new Handler().postDelayed(new Runnable(){
+            public void run() {
+                tv2.setVisibility(View.VISIBLE);
+            }
+        }, 2000);
+
+        tv3.setVisibility(View.INVISIBLE);
+        new Handler().postDelayed(new Runnable(){
+            public void run() {
+                tv3.setVisibility(View.VISIBLE);
+            }
+        }, 2000);
+
+        tv4.setVisibility(View.INVISIBLE);
+        new Handler().postDelayed(new Runnable(){
+            public void run() {
+                tv4.setVisibility(View.VISIBLE);
+            }
+        }, 2000);
+
+        tv5.setVisibility(View.INVISIBLE);
+        new Handler().postDelayed(new Runnable(){
+            public void run() {
+                tv5.setVisibility(View.VISIBLE);
+            }
+        }, 2000);
+
+        v1.setVisibility(View.INVISIBLE);
+        new Handler().postDelayed(new Runnable(){
+            public void run() {
+                v1.setVisibility(View.VISIBLE);
+            }
+        }, 2000);
 
 
 
