@@ -48,7 +48,7 @@ public class MyApp extends Application implements BeaconConsumer {
 
         ssnRegionMap.put("0x0117c59825E9",new Region("Beacona",nameSpaceId, Identifier.parse("0x0117c59825E9"),null));
 
-        ssnRegionMap.put("23a01",new Region("Beaconb",nameSpaceId, Identifier.parse("0x0117c59825E9"),null));
+        ssnRegionMap.put("SAME",new Region("Beaconb",nameSpaceId, Identifier.parse(""),null));
 
 
         ssnRegionMap.put("0x0117c59825E9",new Region("Beacon1",nameSpaceId, Identifier.parse("0x0117c59825E9"),null));
